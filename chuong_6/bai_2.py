@@ -1,12 +1,14 @@
-#Bai 2
+#bài 2
 import math
-x = float(input("nhap gia tri bieu thuc x: "))
+# nhập giá trị biểu thức
+x = float(input("nhập giá trị biểu thức x: " ))
+# điều kiện của biểu thức
 if x >= 0 and x != 0:
-    print("gia tri khong duoc am hoac bang 0")
+    print("giá trị không được âm hoặc bằng 0")
 else:
-    print("gia tri khong thoa man")    
-f_x = (-x + (x**2 + 4)**(1/2)/(x**4 + 1)**(1/7))
-x = float(input("nhap gia tri cua x: "))
-f_x = (-x + (x**2 + 4)**(1/2)/(x**4 + 1)**(1/7))
-print(f"Gia tri cua f(x) = {f_x:.2f}")
-print("ket thuc chuong trinh")
+    print("giá trị không thỏa mãn")
+# tính giá trị biểu thúc
+f_x = -x + math.sqrt(x**2 + 4)/math.pow(x**4+1,1/7)
+#in ra kết quả
+print(f"giá trị biểu thức: {f_x:.2f}")
+print("kết thúc chương trình")
