@@ -58,3 +58,4 @@ if fare is not None:  # Chỉ tính tiền chờ nếu fare không phải là No
 
     # In kết quả cước taxi
     print(f"Cước taxi: {fare} đồng")
+    
