@@ -1,4 +1,3 @@
-
 # Cau lenh vong lap while
 n = 10
 while n > 2:#True
